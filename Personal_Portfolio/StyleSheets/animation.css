@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #fefefe;
+  --seconday-color: #f8fafc;
+  --footer-color: #1e293b;
+  --btn-color: #4f46e5;
+  --hover-color: #4338ca;
+  --accent-color: #475569;
+}
+
+.nav-links > li > a:hover {
+  color: var(--hover-color);
+}
+
+#contact-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.hero-info-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.project-container:hover {
+  transform: translateY(-20px);
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.email-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.footer-icon-link > .fa-brands:hover {
+  color: var(--hover-color);
+}
+
+.footer-icon-link > .fa-solid:hover {
+  color: var(--hover-color);
+}
+
+@keyframes TextSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fa-html5:hover {
+  color: orangered;
+}
+
+.fa-css:hover {
+  color: var(--hover-color);
+}
+
+.fa-square-js:hover {
+  color: orange;
+}
+
+.fa-react:hover {
+  color: #9bdaf6;
+}
+
+.fa-git-alt:hover {
+  color: #ef4444;
+}
+
+.hide {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StyleSheets/style.css" />
+    <link rel="stylesheet" href="StyleSheets/animation.css" />
+    <link rel="stylesheet" href="StyleSheets/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Rahul Sain</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-logo">Rahul Sain</div>
+        <ul class="nav-links">
+          <li><a href="#about-section">ABout</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#project-section">Projects</a></li>
+          <li><a href="#contact-section" id="contact-btn">Contact</a></li>
+        </ul>
+        <div class="ham-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <div class="ham-div">
+        <ul class="ham-links">
+          <li><a href="#about-section">ABout</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#project-section">Projects</a></li>
+          <li><a href="#contact-section" id="contact-btn">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="hero-section">
+      <div class="hero-info-section">
+        <h1 class="hero-heading">
+          Hi, I'm <span class="heading-span">Rahul Sain</span>
+        </h1>
+        <p class="hero-desc">
+          A passionate Front-End Developer creating modern and responsive web
+          applications.
+        </p>
+        <a class="hero-info-btn" href="#project-section"> View My Work </a>
+      </div>
+      <div class="hero-img-section">
+        <img
+          src="images/Profile_Picture_Rahul.png"
+          alt="Profile_Picture"
+          class="hero-img"
+          loading="lazy"
+        />
+      </div>
+    </div>
+
+    <div id="about-section" class="animate hide">
+      <h1 class="about-heading">About Me</h1>
+      <p class="about-desc">
+        I'm a self-taught developer with a strong passion for building beautiful
+        and functional websites. I started my journey with HTML & CSS and
+        quickly fell in love with the power of JavaScript to bring pages to
+        life. I am dedicated to writing clean, efficient code and am always
+        eager to learn new technologies and improve my skills. When I'm not
+        coding, you can find me exploring new Frameworks, Libraries or enjoying
+        a good book.
+      </p>
+    </div>
+
+    <div id="skills-section" class="animate hide">
+      <div class="skills-heading-div">
+        <h1>My Skills</h1>
+      </div>
+      <div class="skill-icons">
+        <div class="item">
+          <i class="fa-brands fa-html5"></i>
+          <p class="skill-name">HTML5</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-css"></i>
+          <p class="skill-name">CSS3</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-square-js"></i>
+          <p class="skill-name">JavaScript</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-react"></i>
+          <p class="skill-name">React</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-git-alt"></i>
+          <p class="skill-name">Git</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-section" class="animate hide">
+      <h1>My Projects</h1>
+      <div class="project-container-div">
+        <div class="project-container">
+          <img
+            src="images/project1.png"
+            alt="project1_pic"
+            class="project-image"
+            loading="lazy"
+          />
+          <div class="project-info">
+            <h3 class="project-heading">Project One Title</h3>
+            <p class="project-desc">
+              A brief description of the project, the technologies used, and the
+              problems it solves.
+            </p>
+            <a href="#" class="project-link">View Project→</a>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="images/project1.png"
+            alt="project1_pic"
+            class="project-image"
+            loading="lazy"
+          />
+          <div class="project-info">
+            <h3 class="project-heading">Project One Title</h3>
+            <p class="project-desc">
+              A brief description of the project, the technologies used, and the
+              problems it solves.
+            </p>
+            <a href="#" class="project-link">View Project→</a>
+          </div>
+        </div>
+        <div class="project-container">
+          <img
+            src="images/project1.png"
+            alt="project1_pic"
+            class="project-image"
+            loading="lazy"
+          />
+          <div class="project-info">
+            <h3 class="project-heading">Project One Title</h3>
+            <p class="project-desc">
+              A brief description of the project, the technologies used, and the
+              problems it solves.
+            </p>
+            <a href="#" class="project-link">View Project→</a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="project-btn">View My Other Projects</a>
+    </div>
+
+    <div id="contact-section" class="animate hide">
+      <h1>Get In Touch</h1>
+      <p class="contact-para">
+        I'm currently open to new opportunities. Feel free to send me a message!
+      </p>
+      <a href="mailto:sainrahul374@gmail.com" class="email-btn">Email Me</a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-icons">
+        <a href="#" class="footer-icon-link"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="#" class="footer-icon-link"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="#" class="footer-icon-link"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <p class="footer-para">&copy; 2025 Rahul Sain. All Rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
