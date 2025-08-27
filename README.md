@@ -40,10 +40,10 @@ To get a local copy up and running, simply clone the repository and open the `in
 
 ```bash
 # Clone this repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/Anos714/Personal_Portfolio.git](https://github.com/Anos714/Personal_Portfolio.git)
 
 # Navigate to the project directory
-cd your-repo-name
+cd Personal_Portfolio
 
 # Open index.html in your browser
 ```
@@ -51,10 +51,10 @@ cd your-repo-name
 
 ## 📸 Screenshots
 ## 🖥 Desktop View
-![Desktop View](des?raw=true "Desktop View")
+![Desktop View](Personal_Portfolio/images/desktop.png?raw=true "Desktop View")
 
 ## 📱 Mobile View
-![Mobile View](MobileView.png?raw=true "Mobile View")
+![Mobile View](Personal_Portfolio/images/mobile.png?raw=true "Mobile View")
 
 ---
 
