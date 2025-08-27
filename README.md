@@ -4,7 +4,7 @@ This is my personal portfolio website, built from scratch to showcase my skills 
 
 ## 🚀 Live Demo
 
-You can view the live version of the site here: **[your-live-demo-link.com](https://your-username.github.io/your-repo-name/)**
+You can view the live version of the site here: **[your-live-demo-link.com](https://rahulsainportfolio714.vercel.app/)**
 
 ---
 
@@ -48,10 +48,18 @@ cd your-repo-name
 # Open index.html in your browser
 ```
 
+
+## 📸 Screenshots
+## 🖥 Desktop View
+![Desktop View](des?raw=true "Desktop View")
+
+## 📱 Mobile View
+![Mobile View](MobileView.png?raw=true "Mobile View")
+
 ---
 
 ## ✉️ Contact
 
 Rahul Sain - sainrahul374@gmail.com
 
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+Project Link: [https://github.com/Anos714/Personal_Portfolio](https://github.com/Anos714/Personal_Portfolio)
